@@ -1,22 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title><%= full_title(yield(:title))%></title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
-</head>
-<body>
-	<ul>
-		<li><%= link_to 'Home', root_path %></li>
-		<li><%= link_to 'Projects', projects_path %></li>
-		<li><%= link_to 'About', about_path %></li>
-		<li><%= link_to 'Contact us', contact_path %></li>
-	</ul>
+  <link href='http://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
+ <body>
+<nav class="navbar-brand">   
+         <a class="brand" href="/">E-KALL TOWER CO.</a>      
+    </nav> 
+<nav class="navbar-links">
+    <a href="/projects">PROJECTS</a>
+         <a href="/about">ABOUT</a>
+         <a href="/contact">CONTACT</a> 
+ </nav>        
+  <div class="container">
+    <div class="statement">
+      <p></p>
+    </div>     
+     <%= yield %>
+     </div>
+     <div class="footer">
+      <ul>
+      <h4>QUICK LINKS</h4>
+      <li><a href="#">ABOUT E-KALL TOWER CO.</a></li>
+      <li><a href="#">COMPANY CATALOG</a></li>
+      <li><a href="#">CAREERS</a></li>
+      <li><a href="#">CONTACT US</a></li>
+      </ul>
+          <p class="copyrights"> <srtong>&copy</strong>2013 E-KALL TOWER COMPANY. ALL RIGHTS RESERVED.</p>
 
-
-<div class="container">
-      <%= yield %>
- </div>
-</body>
+    </div> 
+  </body>
 </html>
