@@ -6,31 +6,33 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
   <link href='http://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
  <body>
+  <script type="text/javascript" src=
+  'javascripts/jquery.js'></script>
 <nav class="navbar-brand">   
          <a class="brand" href="/">E-KALL TOWER CO.</a>      
-    </nav> 
+</nav> 
 <nav class="navbar-links">
-    <a href="/projects">PROJECTS</a>
+         <a href="/projects">PROJECTS</a>
          <a href="/about">ABOUT</a>
          <a href="/contact">CONTACT</a> 
- </nav>        
-  <div class="container">
-    <div class="statement">
-      <p></p>
-    </div>     
+ </nav>  
+     <div class="container">
+     
      <%= yield %>
+
      </div>
+
      <div class="footer">
       <ul>
       <h4>QUICK LINKS</h4>
       <li><a href="#">ABOUT E-KALL TOWER CO.</a></li>
-      <li><a href="#">COMPANY CATALOG</a></li>
-      <li><a href="#">CAREERS</a></li>
+      <li><a href="#">COMPANY BROCHURE</a></li>
+      <li><a href="#">PROJECTS</a></li>
       <li><a href="#">CONTACT US</a></li>
       </ul>
-          <p class="copyrights"> <srtong>&copy</strong>2013 E-KALL TOWER COMPANY. ALL RIGHTS RESERVED.</p>
-
-    </div> 
+          <p class="copyrights"><strong>&copy</strong> 2013 E-Kall Tower Company. All Rights Reserved.</p>
+      </div> 
   </body>
 </html>

@@ -1,13 +1,13 @@
 body {
   background-image:url('con.jpg');
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  margin: 0;
+
 }
 
 .container {
   padding-right: 15px;
-  padding-left: 40px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 25px;
@@ -70,32 +70,14 @@ body {
 /* Front page statement */
 
 .statement {
-  margin-top: 100px;
-  margin-bottom: 125px;
-  padding-left: 10px;
-}
-
-.statement h2 {
   color: white;
-  text-shadow: rgba(0, 0, 0, 0.4) 0 1px 1px;
-  font-size: 35px;
-  font-weight: 500;
-  font-family: 'Roboto', sans-serif;
-  margin-bottom: 0;
+  text-shadow:rgba(0, 0, 0, 0.4) 0 1px 1px;
+  margin-top: 150px;
+  font-size:30px;
+  font-weight:200;
+  line-height:30px;
+  font-family: arial;
 }
-
-.statement p {
-margin-right: 675px;
-margin-top: 0;
-font-size: 21px;
-font-weight: 200;
-text-align: block;
-font-family: 'Roboto', sans-serif;
-color: white;
-text-shadow:rgba(0, 0, 0, 0.4) 0 1px 1px;
-line-height: 1.25;
-}
-
 .statement a {
   text-decoration: none;
 }
@@ -109,8 +91,8 @@ line-height: 1.25;
   padding-top: 15px;
   padding-left: 0px;
   text-align: left;
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-family: 'Unica One', cursive;
+  font-size: 15px;
   color: grey;
 
 }
@@ -120,9 +102,9 @@ line-height: 1.25;
 .footer {
   background-image: linear-gradient(#222222, #111111);
   background-repeat: repeat no-repeat;
+  margin-left: 0px;
   padding-bottom: 10px;
   padding-top: 10px;
-  width: 100%;
 }
 
 .footer h4 {
@@ -145,47 +127,12 @@ line-height: 1.25;
   list-style: none;
 }
 
-.engineering {
-background-color: #ecf0f1;
-margin-left: 0px;
-margin-bottom: 100px;
-position: relative;
-padding-bottom: 10px;
-padding-top: 10px;
-opacity: 0.5;
-}
-
-.img-wrapper {
-  margin-left: 250px;
-  margin-bottom: 350px;
-}
-
-.img {
-  border-radius: 50%;
-  width: 120px;
-  height: 120px; 
+.img-circle {
+  border-bottom-left-radius:500px;
+  border-bottom-right-radius:500px;
+  border-top-left-radius:500px;
+  border-top-right-radius:500px;
+  /*background-image: url('sketch.jpg')*/
   background-color: white;
-  opacity: 0.5;
-  float: left;
-  position: relative;
-  margin-right: 100px;
-  background-image: url('sketch.jpg');
-}
-
-
-
-.glyphicon {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.glyphicon-cog:before {
-  content: "\e019";
-}
+  margin: 20px;
+  }
