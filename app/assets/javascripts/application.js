@@ -1,3 +1,6 @@
+
+//= require dataTables/jquery.dataTables
+//= require dataTables/jquery.dataTables.bootstrap
 /*!
  * Bootstrap v3.0.2 by @fat and @mdo
  * Copyright 2013 Twitter, Inc.
