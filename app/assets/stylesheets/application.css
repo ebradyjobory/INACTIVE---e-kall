@@ -236,6 +236,11 @@ line-height: 1.25;
 }
 .footer a:hover {
   color: white;
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -o-transition: all 0.1s;
 }
 
 .footer li{
