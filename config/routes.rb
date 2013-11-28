@@ -1,5 +1,5 @@
 MyPage::Application.routes.draw do
-  root 'pages#home'
+root 'pages#home'
   match '/service', to: 'pages#service', via: 'get'
   match '/about', to: 'pages#about', via: 'get'
   match '/contact', to: 'pages#contact', via: 'get'
