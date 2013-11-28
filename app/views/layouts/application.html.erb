@@ -13,11 +13,23 @@
 <nav class="navbar-brand">   
          <a class="brand" href="/">E-KALL TOWER CO.</a>      
 </nav> 
-<nav class="navbar-links">
-         <a href="/projects">PROJECTS</a>
-         <a href="/about">ABOUT</a>
-         <a href="/contact">CONTACT</a> 
- </nav>  
+<div class="nav-links">
+    <ul class="links">
+      <li>HOME</li>
+      <li>ABOUT</li>
+      <li>
+        SERVICES
+        <ul id="drop-list">
+          <li><a href="#">STRUCTURAL</a></li>
+          <li><a href="#">MECHANICAL</a></li>
+          <li><a href="#">ELECTRICAL</a></li>
+          <li><a href="#">COMBAT ENGINEERING</a></li>
+        </ul>
+      </li>
+      <li>CONTACT</li>
+    </ul>
+</div>
+
      <div class="container">
      
      <%= yield %>
@@ -28,7 +40,7 @@
       <h4>QUICK LINKS</h4>
       <li><a href="#">ABOUT E-KALL TOWER CO.</a></li>
       <li><a href="#">COMPANY BROCHURE</a></li>
-      <li><a href="#">PROJECTS</a></li>
+      <li><a href="#">Services</a></li>
       <li><a href="#">CONTACT US</a></li>
       </ul>
           <p class="copyrights"><strong>&copy</strong> 2013 E-Kall Tower Company. All Rights Reserved.</p>
