@@ -1,10 +1,25 @@
 
-body {
+body#home-page {
   background-image: url('main3.jpg');
   background-repeat: repeat;
   background-attachment: fixed;
   margin: 0;
 }
+
+body#contact-page {
+  background-image: url('construction2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+body#about-page {
+  background-image: url('con.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
 
 .container {
   padding-left: 70px;
@@ -205,6 +220,14 @@ color: white;
 text-shadow:rgba(0, 0, 0, 0.4) 0 1px 1px;
 line-height: 1.25;
 }
+.statement-p a {
+color: white;
+text-decoration: none;
+}
+.statement-p a:hover {
+color: white;
+text-decoration: underline;
+}
 
 .statement a {
   text-decoration: none;
@@ -373,6 +396,17 @@ opacity: 0.5;
 
 }
 
+#about-statement h2 {
+ margin-top: 90px;
+ color: white;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 1px 1px;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0;
+  margin-left: -10px;
+
+}
 #phone {
   color: white;
   margin-top: -10px;
