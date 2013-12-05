@@ -20,6 +20,19 @@ body#about-page {
   margin: 0;
 }
 
+body#mechanic-page {
+  background-image: url('mechanic.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+body#structure-page {
+  background-image: url('structure.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
 
 .container {
   padding-left: 70px;
